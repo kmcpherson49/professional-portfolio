@@ -54,10 +54,6 @@ header nav ul li a {
 
 /* class style */
 
-.hero {
-  background-image: url("../images/marble-background.jpg");
-}
-
 .about-me {
   display: flex;
   justify-content: space-evenly;
@@ -75,11 +71,15 @@ header nav ul li a {
   width: 100%;
 }
 
-/* .run-buddy {
+.run-buddy {
     display: flex;
-} */
+}
 .run-buddy img {
   width: 75%;
+}
+
+.run-buddy h3 {
+    width: 50%;
 }
 
 .projects {
@@ -97,8 +97,11 @@ header nav ul li a {
 
 h2 {
     text-align: center;
+    background-color: var(--primary-color);
 }
 h3 {
     color: var(--tertiary-color);
     text-align: center;
 }
+
+
