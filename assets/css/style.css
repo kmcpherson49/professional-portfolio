@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #f999c9;
+    --secondary-color: #910e75;
+    --tertiary-color: #d60db0;
+}
+
+body {
+    color: var(--tertiary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header style */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+/* class style */
+
+.hero {
+    background-image: url("../images/marble-background.jpg");
+}
+
+.about-me {
+    display: flex;
+    
+}
+.headshot {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    flex: 1;
+
+}
+
+.bio {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    flex: 1;
+}
